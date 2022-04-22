@@ -1,9 +1,13 @@
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
     text-align: center;
-    max-width: 499px;
     margin: auto;
+    background-color: #006400;
+    color: white;
+    max-width: 499px;
+    padding: 15px;
 }
 
 header img {
@@ -19,10 +23,18 @@ main {
     font-family: monospace;
     max-width: 499px;
     margin: auto;
+    font-size: larger;
 }
 
 footer {
     max-width: 499px;
     margin: auto;
     text-align: center;
+    background-color: #006400;
+    color: white;
+    padding: 10px;
+}
+
+.small {
+    font-size: small;
 }
