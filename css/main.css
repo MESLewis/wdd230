@@ -1,0 +1,28 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    max-width: 499px;
+    margin: auto;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+main {
+    font-family: monospace;
+    max-width: 499px;
+    margin: auto;
+}
+
+footer {
+    max-width: 499px;
+    margin: auto;
+    text-align: center;
+}
