@@ -58,3 +58,10 @@ nav {
 .spotlight-container div:last-child {
     display: none;
 }
+
+.banner {
+    display: none;
+    width: 100%;
+    min-height: 2em;
+    text-align: center;
+}
